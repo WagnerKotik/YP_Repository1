@@ -1,0 +1,16 @@
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\PingPong\bin\Debug\PingPong.exe.config
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\PingPong\bin\Debug\PingPong.exe
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\PingPong\bin\Debug\PingPong.pdb
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\PingPong\obj\Debug\PingPong.csproj.AssemblyReference.cache
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\PingPong\obj\Debug\PingPong.csproj.SuggestedBindingRedirects.cache
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\PingPong\obj\Debug\MainWindow.g.cs
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\PingPong\obj\Debug\App.g.cs
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\PingPong\obj\Debug\PingPong_MarkupCompile.cache
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\PingPong\obj\Debug\PingPong_MarkupCompile.lref
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\PingPong\obj\Debug\MainWindow.baml
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\PingPong\obj\Debug\PingPong.g.resources
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\PingPong\obj\Debug\PingPong.Properties.Resources.resources
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\PingPong\obj\Debug\PingPong.csproj.GenerateResource.cache
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\PingPong\obj\Debug\PingPong.csproj.CoreCompileInputs.cache
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\PingPong\obj\Debug\PingPong.exe
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\PingPong\obj\Debug\PingPong.pdb
