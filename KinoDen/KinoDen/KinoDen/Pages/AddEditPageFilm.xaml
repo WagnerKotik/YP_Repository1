@@ -1,0 +1,54 @@
+﻿<Page x:Class="KinoDen.Pages.AddEditPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KinoDen.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddEditPageFilm">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Style="{StaticResource OtdelTXT}" Width="60" Height="25" Grid.Row="0" Grid.Column="0" x:Name="Film" Text="фильм"/>
+        <TextBox x:Name="KinoF" Grid.Row="0" Grid.Column="1" Height="60"/>
+        <TextBlock Style="{StaticResource OtdelTXT}" Width="60" Height="25" Grid.Row="1" Grid.Column="0" x:Name="autor" Text="автор"/>
+        <TextBox x:Name="Avtor" Grid.Row="1" Grid.Column="1" Height="60"/>
+        <TextBlock Style="{StaticResource OtdelTXT}" Width="90" Height="25" Grid.Row="2" Grid.Column="0" x:Name="discryption" Text="описание"/>
+        <TextBox x:Name="Discr" Grid.Row="2" Grid.Column="1" Height="60"/>
+        <TextBlock Style="{StaticResource OtdelTXT}" Width="90" Height="25" Grid.Row="3" Grid.Column="0" x:Name="producer" Text="продюсер"/>
+        <TextBox x:Name="Prod" Grid.Row="3" Grid.Column="1" Height="60"/>
+        <TextBlock Style="{StaticResource OtdelTXT}" Width="90" Height="25" Grid.Row="4" Grid.Column="0" x:Name="Company" Text="Компания"/>
+        <TextBox x:Name="Comp" Grid.Row="4" Grid.Column="1" Height="60"/>
+        <TextBlock Style="{StaticResource OtdelTXT}" Width="90" Height="25" Grid.Row="5" Grid.Column="0" x:Name="year" Text="Год"/>
+        <TextBox x:Name="YearF" Grid.Row="5" Grid.Column="1" Height="60"/>
+        <TextBlock Style="{StaticResource OtdelTXT}" Width="90" Height="25" Grid.Row="6" Grid.Column="0" x:Name="land" Text="Страна"/>
+        <TextBox x:Name="Country" Grid.Row="6" Grid.Column="1" Height="60"/>
+        <TextBlock Style="{StaticResource OtdelTXT}" Width="90" Height="25" Grid.Row="7" Grid.Column="0" x:Name="Time" Text="Время"/>
+        <TextBox x:Name="TimeF" Grid.Row="7" Grid.Column="1" Height="60"/>
+        <TextBlock Style="{StaticResource OtdelTXT}" Width="90" Height="25" Grid.Row="8" Grid.Column="0" x:Name="Summ" Text="Цена"/>
+        <TextBox x:Name="CenaF" Grid.Row="8" Grid.Column="1" Height="60"/>
+        <TextBlock Style="{StaticResource OtdelTXT}" Width="90" Height="25" Grid.Row="9" Grid.Column="0" x:Name="Rate" Text="рейтинг"/>
+        <TextBox x:Name="RateF" Grid.Row="9" Grid.Column="1" Height="60"/>
+        <Button Grid.Column="2" Height="20" Width="90" Content="сохранить" Grid.Row="9" Click="Button_Click"/>
+
+
+    </Grid>
+</Page>

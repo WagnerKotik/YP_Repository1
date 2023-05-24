@@ -1,0 +1,177 @@
+﻿<Page x:Class="KinoDen.Tabs"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KinoDen"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Tabs">
+
+    <Grid>
+        <TabControl Height="NaN" Margin="0,50,0,0" Width="NaN">
+            <TabItem Header="Отдел маркетинга и закупок" Foreground="#c55a17">
+
+                <StackPanel x:Name="Otdel" Style="{StaticResource Otdel}">
+                    <StackPanel>
+                        <TextBlock Style="{StaticResource OtdelTXT}"     Text="ФИЛЬМЫ" />
+                        <Image Source="\IMG\films.png" Style="{StaticResource OtdelPic}" ></Image>
+                        <Button HorizontalAlignment="Right" x:Name="Redact" Height="20" Width="20" Click="Redact_Click"></Button>
+                        <Border Style="{StaticResource BStyle}">
+                            <ListView x:Name="LViewFilm" >
+                                <ListView.View>
+                                    <GridView>
+
+                                        <GridViewColumn Header="Название фильма" DisplayMemberBinding="{Binding NameFilm}"  />
+                                        <GridViewColumn Header="Автор сценария, режиссер" DisplayMemberBinding="{Binding Author}" />
+                                        <GridViewColumn Header="описание" DisplayMemberBinding="{Binding Comment}" />
+                                        <GridViewColumn Header="Продюсер" DisplayMemberBinding="{Binding Producer}" />
+                                        <GridViewColumn Header="Компания, производство"   DisplayMemberBinding="{Binding Company}" />
+                                        <GridViewColumn Header="Год выпуска"   DisplayMemberBinding="{Binding Year}" />
+                                        <GridViewColumn Header="Страна выпуска" DisplayMemberBinding="{Binding Land}" />
+                                        <GridViewColumn Header="Время в минутах" DisplayMemberBinding="{Binding Time}" />
+                                        <GridViewColumn Header="Стоимость"  DisplayMemberBinding="{Binding Cost}" />
+                                        <GridViewColumn Header="Рейтинг киноленты" DisplayMemberBinding="{Binding Rate}" />
+
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+
+                        </Border>
+                    </StackPanel>
+                    <StackPanel>
+                        <TextBlock  Text="ЗАКУПКА" Style="{StaticResource OtdelTXT}"/>
+
+                        <Image Source="\IMG\zakup.png"   Style="{StaticResource OtdelPic}" />
+                        <Border Style="{StaticResource BStyle}">
+                            <ListView x:Name="LViewZakup" >
+                                <ListView.View>
+                                    <GridView>
+
+                                        <GridViewColumn Header="Фильм" DisplayMemberBinding="{Binding Filmer}"  />
+                                        <GridViewColumn Header="Имя посредника" DisplayMemberBinding="{Binding ProviderName}" />
+                                        <GridViewColumn Header="Дата покупки" DisplayMemberBinding="{Binding DateBuy}" />
+                                        <GridViewColumn Header="Сумма" DisplayMemberBinding="{Binding Summ}" />
+
+
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+
+                        </Border>
+                    </StackPanel>
+
+                </StackPanel>
+
+
+
+
+
+
+            </TabItem>
+            <TabItem Header="Отдел аренды" Foreground="#c55a17">
+                <StackPanel Style="{StaticResource Otdel}" x:Name="Rent">
+
+                    <StackPanel>
+                        <TextBlock Style="{StaticResource OtdelTXT}" Text="КИНОТЕАТРЫ" />
+                        <Image Source="\IMG\kinoteatri.png" Style="{StaticResource OtdelPic}" ></Image>
+                        <Border Style="{StaticResource BStyle}">
+                            <ListView x:Name="LViewCinema" >
+                                <ListView.View>
+                                    <GridView>
+
+                                        <GridViewColumn Header="Кинотеатр" DisplayMemberBinding="{Binding NameCinema}"  />
+                                        <GridViewColumn Header="ИНН кинотеатра" DisplayMemberBinding="{Binding INNCinema}" />
+                                        <GridViewColumn Header="Директор" DisplayMemberBinding="{Binding Chief}" />
+                                        <GridViewColumn Header="Номер дирекора" DisplayMemberBinding="{Binding PhoneChief}" />
+                                        <GridViewColumn Header="Владелец" DisplayMemberBinding="{Binding Owner}" />
+                                        <GridViewColumn Header="Номер влдельца" DisplayMemberBinding="{Binding PhoneOwner}" />
+                                        <GridViewColumn Header="Номер Кинотеатра" DisplayMemberBinding="{Binding Phone}" />
+                                        <GridViewColumn Header="Район" DisplayMemberBinding="{Binding District}" />
+                                        <GridViewColumn Header="Банк партнер" DisplayMemberBinding="{Binding BankCinema}" />
+                                        <GridViewColumn Header="Номер счета в банке" DisplayMemberBinding="{Binding AccountCinema}" />
+                                        <GridViewColumn Header="Места" DisplayMemberBinding="{Binding Capacity}" />
+
+
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+
+                        </Border>
+                    </StackPanel>
+                    <StackPanel>
+                        <TextBlock Style="{StaticResource OtdelTXT}" Text="АРЕНДА ФИЛЬМОВ" />
+                        <Image Source="\IMG\arenda.png"   Style="{StaticResource OtdelPic}" />
+                        <Border Style="{StaticResource BStyle}">
+                            <ListView x:Name="LViewRent" >
+                                <ListView.View>
+                                    <GridView>
+
+                                        <GridViewColumn Header="Фильм" DisplayMemberBinding="{Binding Filmer2}"  />
+                                        <GridViewColumn Header="кинотеатр" DisplayMemberBinding="{Binding Cinemer}" />
+                                        <GridViewColumn Header="Дата старта Аренды" DisplayMemberBinding="{Binding DateStart}" />
+                                        <GridViewColumn Header="Дата конца Аренды" DisplayMemberBinding="{Binding DateStop}" />
+                                        <GridViewColumn Header="работник" DisplayMemberBinding="{Binding Worker}" />
+                                        <GridViewColumn Header="номер работника" DisplayMemberBinding="{Binding PhoneWorker}" />
+                                        <GridViewColumn Header="Сумма" DisplayMemberBinding="{Binding Summa}" />
+                                        <GridViewColumn Header="просроченная оплата" DisplayMemberBinding="{Binding Tax}" />
+
+
+
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+
+                        </Border>
+                    </StackPanel>
+
+
+
+                </StackPanel>
+
+
+            </TabItem>
+
+            <TabItem Header="Отчеты" Foreground="#c55a17">
+
+                <StackPanel>
+
+
+                    <StackPanel Orientation="Horizontal" Margin="20 50 0 0">
+                        <Button Click="ButtonPros">
+                            <Image Source="\IMG\pdf.png"  Height="57" RenderTransformOrigin="0.5,0.5" Width="43" />
+                        </Button>
+                        <TextBlock Margin="20 20 0 0" FontFamily="Calibri" FontSize="20" Foreground="#c55a17" Text="Долги за месяц   " Width="600"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="20 20 0 0">
+                        <Button Click="ButtonReiting">
+                            <Image Source="\IMG\pdf.png"  Height="57" RenderTransformOrigin="0.5,0.5" Width="43" />
+                        </Button>
+                        <TextBlock Margin="20 20 0 0" FontFamily="Calibri" FontSize="20" Foreground="#c55a17" Text="Рейтинг кинофильмов" Width="600"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="20 20 0 0">
+                        <Button Click="ButtonViruchka">
+                            <Image Source="\IMG\pdf.png"  Height="57" RenderTransformOrigin="0.5,0.5" Width="43" />
+                        </Button>
+                        <TextBlock Margin="20 20 0 0" FontFamily="Calibri" FontSize="20" Foreground="#c55a17" Text="выручка за период" Width="600"/>
+                    </StackPanel >
+
+                    <StackPanel Orientation="Horizontal" Margin="20 20 0 0">
+                        <Button Click="ButtonArenda">
+                            <Image Source="\IMG\pdf.png"  Height="57" RenderTransformOrigin="0.5,0.5" Width="43" ></Image>
+                        </Button>
+                        <TextBlock Margin="20 20 0 0" FontFamily="Calibri" FontSize="20" Foreground="#c55a17" Text="Аренда за последний месяц" Width="600"/>
+                    </StackPanel>
+                </StackPanel>
+
+
+
+
+            </TabItem>
+
+
+        </TabControl>
+    </Grid>
+</Page>

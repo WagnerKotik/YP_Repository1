@@ -1,0 +1,35 @@
+﻿<Window x:Class="KinoDen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KinoDen"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800">
+    
+    <Grid>
+        
+        <Grid>
+        
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="201*"/>
+                <ColumnDefinition Width="196*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+        </Grid>
+            <Image Grid.Column="0"  Source="\IMG\logo.png" 
+                   Style="{StaticResource Logo}"   />
+            <TextBlock HorizontalAlignment="Left"   FontFamily="Calibri"
+                       Foreground="#c55a17"  FontSize="20" Margin="92,10,0,0" 
+                       TextWrapping="Wrap" VerticalAlignment="Top" Height="40"
+                       Width="308"><Run Text="OOO&quot;"/><Run Language="ru-ru" 
+                       Text="КИНОВИДЕОПРОКАТ"/><Run Text="&quot;"/></TextBlock>
+        
+            <Frame Grid.Row="1" x:Name="TabsMain"/>
+
+
+    </Grid>
+</Window>
