@@ -1,0 +1,16 @@
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\Risovalka\bin\Debug\Risovalka.exe.config
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\Risovalka\bin\Debug\Risovalka.exe
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\Risovalka\bin\Debug\Risovalka.pdb
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\Risovalka\obj\Debug\Risovalka.csproj.AssemblyReference.cache
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\Risovalka\obj\Debug\Risovalka.csproj.SuggestedBindingRedirects.cache
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\Risovalka\obj\Debug\MainWindow.g.cs
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\Risovalka\obj\Debug\App.g.cs
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\Risovalka\obj\Debug\Risovalka_MarkupCompile.cache
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\Risovalka\obj\Debug\Risovalka_MarkupCompile.lref
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\Risovalka\obj\Debug\MainWindow.baml
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\Risovalka\obj\Debug\Risovalka.g.resources
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\Risovalka\obj\Debug\Risovalka.Properties.Resources.resources
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\Risovalka\obj\Debug\Risovalka.csproj.GenerateResource.cache
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\Risovalka\obj\Debug\Risovalka.csproj.CoreCompileInputs.cache
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\Risovalka\obj\Debug\Risovalka.exe
+C:\Users\azaza\OneDrive\Рабочий стол\С# приложения\Risovalka\obj\Debug\Risovalka.pdb
